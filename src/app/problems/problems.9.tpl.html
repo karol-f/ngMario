@@ -7,9 +7,9 @@
         <li>performance drops when there is significant number of $watches</li>
         <li>don't show all elements at once (e.g. use pagination)</li>
         <li ng-non-bindable>use one-time {{::bindings}} when applicable</li>
-        <li>don't use advanced filters</li>
+        <li>don't use advanced filters (filters are evaluated twice in each digest cycle)</li>
         <li>instead of <code>$rootScope.$broadcast + $scope.$on</code> it's better to use <code>$rootScope.$emit + $rootScope.$on</code></li>
-        <li>In ES7 there will be Object.observe</li>
+        <li>ES7 will introduce Object.observe - it will provide a significant boost</li>
       </ul>
     </section>
 
@@ -17,14 +17,14 @@
       <h1>Directives performance</h1>
       <ul>
         <li>
-          compile
+          compile phase
           <ul>
             <li>lack of $scope</li>
             <li>run once</li>
           </ul>
         </li>
         <li>
-          link
+          link phase
           <ul>
             <li>has $scope</li>
             <li>run <strong>n</strong> times in ng-repeat</li>

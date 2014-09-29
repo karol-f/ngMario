@@ -439,7 +439,7 @@ module.exports = function ( grunt ) {
         files: [
           '<%= app_files.js %>'
         ],
-        tasks: [ 'jshint:src', 'jscs', 'karma:unit:run', 'beep:error', 'copy:build_appjs' ]
+        tasks: [ 'jshint:src', 'karma:unit:run', 'beep:error', 'copy:build_appjs' ]
       },
 
       /**
@@ -525,7 +525,7 @@ module.exports = function ( grunt ) {
    * The `build` task gets your app ready to run for development and testing.
    */
   grunt.registerTask( 'build', [
-    'gitHooks', 'clean:all', 'html2js', 'jshint', 'jscs', 'compass:build',
+    'gitHooks', 'clean:all', 'html2js', 'jshint', 'compass:build',
     'copy:build_app_assets', 'copy:build_vendor_assets',
     'copy:build_appjs', 'copy:build_vendorjs', 'copy:build_vendorcss', 'concat:build_css', 'copy:mario', 'index:build', 'karmaconfig',
     'karma:continuous'

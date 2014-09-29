@@ -7,7 +7,7 @@
     "angular-route": "~1.3.0",
     "jquery": "latest",
     "lodash": "latest",
-    "FullScreenMario": "git@github.com:blnight/FullScreenMario.git#mario-presentation",
+    "FullScreenMario": "git@github.com:blnight/FullScreenMario.git#mario-presentation-game",
     "reveal.js": "latest",
     "animate.css": "latest"
   },
