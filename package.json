@@ -1,9 +1,9 @@
 {
-  "name": "meetjs_mario",
+  "name": "ng_mario",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git@github.com:blnight/meetjs_mario.git"
+    "url": "git@github.com:blnight/ng_mario.git"
   },
   "dependencies": {},
   "devDependencies": {

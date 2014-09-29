@@ -1,4 +1,4 @@
-angular.module('meetjs_mario.route', ['ngRoute'])
+angular.module('ng_mario.route', ['ngRoute'])
 
 .provider('route', function($routeProvider) {
   // In the provider function, you cannot inject any

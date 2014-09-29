@@ -2,7 +2,7 @@
  App Config
  ----------------------------------------- */
 
-angular.module('meetjs_mario.globals', [])
+angular.module('ng_mario.globals', [])
 
 .value('globals', {
   'pageTitle': '',

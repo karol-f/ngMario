@@ -1,5 +1,5 @@
-angular.module( 'meetjs_mario.learned', [
-  'meetjs_mario.route'
+angular.module( 'ng_mario.learned', [
+  'ng_mario.route'
 ])
 
 .config(function( routeProvider ) {

@@ -2,7 +2,7 @@ describe( 'AppCtrl', function() {
   describe( 'isCurrentUrl', function() {
     var AppCtrl, $location, $scope;
 
-    beforeEach( module( 'meetjs_mario' ) );
+    beforeEach( module( 'ng_mario' ) );
 
     beforeEach( inject( function( $controller, _$location_, $rootScope ) {
       $location = _$location_;

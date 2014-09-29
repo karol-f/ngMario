@@ -1,16 +1,16 @@
-angular.module( 'meetjs_mario', [
+angular.module( 'ng_mario', [
   'ngRoute',
   'templates-app',
   'templates-common',
 
-  'meetjs_mario.home',
-  'meetjs_mario.game',
-  'meetjs_mario.problems',
-  'meetjs_mario.learned',
-  'meetjs_mario.summary',
+  'ng_mario.home',
+  'ng_mario.game',
+  'ng_mario.problems',
+  'ng_mario.learned',
+  'ng_mario.summary',
 
-  'meetjs_mario.route',
-  'meetjs_mario.globals',
+  'ng_mario.route',
+  'ng_mario.globals',
   'mario',
   'reveal'
 ])

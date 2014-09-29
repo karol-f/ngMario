@@ -1,5 +1,5 @@
-angular.module( 'meetjs_mario.game', [
-  'meetjs_mario.route'
+angular.module( 'ng_mario.game', [
+  'ng_mario.route'
 ])
 
 .config(function( routeProvider ) {

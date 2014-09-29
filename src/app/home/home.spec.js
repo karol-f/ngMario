@@ -5,7 +5,7 @@
  * automatically.
  */
 describe( 'home section', function() {
-  beforeEach( module( 'meetjs_mario.home' ) );
+  beforeEach( module( 'ng_mario.home' ) );
 
   it( 'should have a dummy test', inject( function() {
     expect( true ).toBeTruthy();
