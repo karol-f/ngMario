@@ -3,6 +3,8 @@ ngMario
 
 Learn AngularJS playing Super Mario Brothers.
 
+[Check Demo](http://blnight.github.io/ngMario)
+
 ### Controls
 Use keyboard arrow keys: **left/rigt/top/bottom**
 
