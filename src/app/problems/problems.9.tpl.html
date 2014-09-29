@@ -1,0 +1,37 @@
+<div class="reveal">
+  <div class="slides problems">
+
+    <section>
+      <h1>Performance</h1>
+      <ul>
+        <li>performance drops when there is significant number of $watches</li>
+        <li>don't show all elements at once (e.g. use pagination)</li>
+        <li ng-non-bindable>use one-time {{::bindings}} when applicable</li>
+        <li>don't use advanced filters</li>
+        <li>instead of <code>$rootScope.$broadcast + $scope.$on</code> it's better to use <code>$rootScope.$emit + $rootScope.$on</code></li>
+        <li>In ES7 there will be Object.observe</li>
+      </ul>
+    </section>
+
+    <section>
+      <h1>Directives performance</h1>
+      <ul>
+        <li>
+          compile
+          <ul>
+            <li>lack of $scope</li>
+            <li>run once</li>
+          </ul>
+        </li>
+        <li>
+          link
+          <ul>
+            <li>has $scope</li>
+            <li>run <strong>n</strong> times in ng-repeat</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+</div>

@@ -1,0 +1,9 @@
+*.sw*
+*~
+*.iml
+*.DS_Store
+.idea
+.sass-cache
+build/
+node_modules/
+vendor/

@@ -1,0 +1,36 @@
+<div class="reveal">
+  <div class="slides problems">
+
+    <section>
+      <h1>$scope.$apply()</h1>
+      <p>Problem - AngularJS is unaware of update to $scope when something happens "outside it's world"</p>
+      <code>
+        setTimeout(function () {<br />
+        &nbsp; &nbsp; // AngularJS is unaware of update to $scope<br />
+        }, 2000);
+      </code>
+    </section>
+
+    <section>
+      <h1>$scope.$apply()</h1>
+      Solution to problem<br />
+      <code>
+        setTimeout(function () {<br />
+        &nbsp; &nbsp; $scope.$apply(function () {<br />
+        &nbsp; &nbsp; &nbsp;&nbsp; //Timeout called<br />
+        &nbsp; &nbsp; });<br />
+        }, 2000);
+      </code>
+    </section>
+
+    <section>
+      <h1>$scope.$apply()</h1>
+      <ul>
+        <li><strong>$scope.$apply()</strong> automatically calls <strong>$rootScope.$digest()</strong></li>
+        <li>use <a href="https://docs.angularjs.org/api/ng/service/$timeout" target="_blank">$timeout</a>, <a href="https://docs.angularjs.org/api/ng/service/$http" target="_blank">$http</a> etc. instead of vanilla JS counterparts</li>
+        <li>$scope.$apply() vs $scope.$apply(<strong>fn</strong>) - latter allows Angular to use try/cath in case of errors</li>
+      </ul>
+    </section>
+
+  </div>
+</div>

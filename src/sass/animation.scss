@@ -1,0 +1,49 @@
+/*******************************
+            Animaion
+*******************************/
+.repeat-item.ng-enter,
+.repeat-item.ng-leave {
+  -webkit-transition:0.5s linear all;
+  transition:1s linear all;
+}
+
+.repeat-item.ng-enter,
+.repeat-item.ng-leave.ng-leave-active {
+  opacity:0;
+}
+.repeat-item.ng-leave,
+.repeat-item.ng-enter.ng-enter-active {
+  opacity:1;
+}
+
+/*-------------------
+    ngShow/ngHide
+--------------------*/
+.column.ng-hide-add, .column.ng-hide-remove {
+  display: table-cell !important;
+}
+/*.column.menu.ng-hide-add {*/
+  /*-webkit-animation: fadeOut .5s;*/
+  /*-moz-animation: fadeOut .5s;*/
+  /*-ms-animation: fadeOut .5s;*/
+  /*animation: fadeOut .5s;*/
+/*}*/
+.column.menu.ng-hide-remove {
+  -webkit-animation: slideInLeft .5s;
+  -moz-animation: slideInLeft .5s;
+  -ms-animation: slideInLeft .5s;
+  animation: slideInLeft .5s;
+}
+
+  /*.column.toolbar.ng-hide-add {*/
+    /*-webkit-animation: fadeOut .5s;*/
+    /*-moz-animation: fadeOut .5s;*/
+    /*-ms-animation: fadeOut .5s;*/
+    /*animation: fadeOut .5s;*/
+  /*}*/
+.column.toolbar.ng-hide-remove {
+  -webkit-animation: fadeIn .5s;
+  -moz-animation: fadeIn .5s;
+  -ms-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}

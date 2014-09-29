@@ -1,0 +1,33 @@
+{
+  "name": "meetjs_mario",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:blnight/meetjs_mario.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-apimocker": "~0.0.1",
+    "grunt-beep": "^0.3.1",
+    "grunt-bump": "~0.0.15",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compass": "^0.9.1",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-conventional-changelog": "^1.1.0",
+    "grunt-html2js": "^0.2.8",
+    "grunt-jscs": "^0.7.0",
+    "grunt-karma": "^0.8.3",
+    "grunt-ng-annotate": "^0.3.2",
+    "grunt-open": "^0.2.3",
+    "karma": "^0.12.23",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "^1.0.0"
+  }
+}

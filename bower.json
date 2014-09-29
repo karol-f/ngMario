@@ -1,0 +1,15 @@
+{
+  "name": "ng-boilerplate",
+  "version": "0.3.2",
+  "devDependencies": {
+    "angular": "~1.3.0",
+    "angular-mocks": "~1.3.0",
+    "angular-route": "~1.3.0",
+    "jquery": "latest",
+    "lodash": "latest",
+    "FullScreenMario": "git@github.com:blnight/FullScreenMario.git#mario-presentation",
+    "reveal.js": "latest",
+    "animate.css": "latest"
+  },
+  "dependencies": {}
+}
