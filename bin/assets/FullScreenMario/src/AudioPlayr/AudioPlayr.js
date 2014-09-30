@@ -64,7 +64,7 @@ function AudioPlayr(settings) {
       }
       // If it's not in the library, we've got a problem
       else {
-        console.log("Unknown sound: '" + name_raw + "'");
+        // console.log("Unknown sound: '" + name_raw + "'");
         return sound;
       }
     }
@@ -140,15 +140,15 @@ function AudioPlayr(settings) {
     
     // This creates the sound.
     var sound = theme = play(name_raw);
-    sound.loop = loop;
+    // sound.loop = loop;
     
     // Don't resume the sound again if specified not to
-    if(!resume)
-      sound.used = false;
+    // if(!resume)
+    //   sound.used = false;
     
     // If it's used (no repeat), add the event listener to resume theme
-    if(sound.used == 1)
-      sound.addEventListener("ended", this.playTheme);
+    // if(sound.used == 1)
+    //   sound.addEventListener("ended", this.playTheme);
     
     return sound;
   }
@@ -310,7 +310,7 @@ function AudioPlayr(settings) {
       muted = localStorage[localStorageMuted];
     
     // Preload everything!
-    libraryLoad();
+    // libraryLoad();
   }
   
   reset(settings || {});
