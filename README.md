@@ -3,7 +3,7 @@ ngMario
 
 Learn AngularJS playing Super Mario Brothers.
 
-#####[Check Demo](http://blnight.github.io/ngMario)
+#####[Check Demo](http://karol-f.github.io/ngMario)
 
 It was prepared as an experiment for local JavaScript meetup. **It's in early phase and might not work for you**. Tested in newest Chrome and Opera.
 
